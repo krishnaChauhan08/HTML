@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter-11</title>
+  </head>
+  <body>
+    <!-- Form with email, date of birth, and favorite color fields -->
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" />
+      <br /><br />
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="color" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Video with controls and poster image -->
+    <video controls poster="poster.jpg">
+      <source src="video.mp4" type="video/mp4" />
+      <source src="video.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Canvas element -->
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    ></canvas>
+  </body>
+</html>
